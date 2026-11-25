@@ -1,0 +1,76 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m1_compat_family_semi148969_k4",
+  "mode": "miller_multiquadratic_compat_cert",
+  "description": "Semiprime N = 311 * 479 = 148969, K = 4: 15 compatible multiquadratic roots & 105 biquadratic identities",
+  "payload": {
+    "N": 148969,
+    "M_tilde": 74090,
+    "K": 4,
+    "claimed_outcome": "COMPATIBLE_FAMILY",
+    "claimed_j_star": 0,
+    "claimed_t_star": 1,
+    "claimed_family": {
+      "1000": {
+        "d": 2,
+        "s": 22326
+      },
+      "0100": {
+        "d": 3,
+        "s": 49785
+      },
+      "1100": {
+        "d": 6,
+        "s": 42201
+      },
+      "0010": {
+        "d": 5,
+        "s": 63250
+      },
+      "1010": {
+        "d": 10,
+        "s": 42349
+      },
+      "0110": {
+        "d": 15,
+        "s": 143497
+      },
+      "1110": {
+        "d": 30,
+        "s": 135677
+      },
+      "0001": {
+        "d": 7,
+        "s": 30618
+      },
+      "1001": {
+        "d": 14,
+        "s": 107696
+      },
+      "0101": {
+        "d": 21,
+        "s": 66322
+      },
+      "1101": {
+        "d": 42,
+        "s": 102081
+      },
+      "0011": {
+        "d": 35,
+        "s": 140469
+      },
+      "1011": {
+        "d": 70,
+        "s": 15506
+      },
+      "0111": {
+        "d": 105,
+        "s": 48429
+      },
+      "1111": {
+        "d": 210,
+        "s": 8852
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m1_compat_family_p211_k3",
+  "mode": "miller_multiquadratic_compat_cert",
+  "description": "Prime p = 211, K = 3: exact 7-field compatible multiquadratic roots & 21 biquadratic identities",
+  "payload": {
+    "N": 211,
+    "M_tilde": 210,
+    "K": 3,
+    "claimed_outcome": "COMPATIBLE_FAMILY",
+    "claimed_j_star": 0,
+    "claimed_t_star": 1,
+    "claimed_family": {
+      "100": {
+        "d": -2,
+        "s": 118
+      },
+      "010": {
+        "d": -3,
+        "s": 29
+      },
+      "110": {
+        "d": 6,
+        "s": 165
+      },
+      "001": {
+        "d": 5,
+        "s": 65
+      },
+      "101": {
+        "d": -10,
+        "s": 74
+      },
+      "011": {
+        "d": -15,
+        "s": 197
+      },
+      "111": {
+        "d": 30,
+        "s": 175
+      }
+    }
+  }
+}

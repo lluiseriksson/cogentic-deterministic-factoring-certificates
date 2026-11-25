@@ -1,0 +1,34 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m2_wh_q71_gauss_d2",
+  "mode": "quadratic_infrastructure_wh_cert",
+  "description": "Prime q=71 (QNR z=7), K=2, Y=6, X=120: Walsh-Hadamard positivity + Gauss cycle d=2 (D=8)",
+  "payload": {
+    "q_prime": 71,
+    "K": 2,
+    "X": 120,
+    "Y": 6,
+    "family": {
+      "10": {
+        "d": 2,
+        "s": 12
+      },
+      "01": {
+        "d": 3,
+        "s": 43
+      },
+      "11": {
+        "d": 6,
+        "s": 19
+      }
+    },
+    "gauss_real_d": 2,
+    "claimed_gauss_period": 1,
+    "claimed_unit_x": 2,
+    "claimed_unit_y": 1,
+    "claimed_unit_norm": -1,
+    "claimed_smooth_Psi": 3,
+    "claimed_max_S_ell": 19,
+    "claimed_qnr_z": 7
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m2_wh_q1559_gauss_d43",
+  "mode": "quadratic_infrastructure_wh_cert",
+  "description": "Prime q=1559 (QNR z=17), K=4, Y=16, X=600: 15-field Walsh-Hadamard positivity + Gauss cycle d=43 (L=10)",
+  "payload": {
+    "q_prime": 1559,
+    "K": 4,
+    "X": 600,
+    "Y": 16,
+    "family": {
+      "1000": {
+        "d": 2,
+        "s": 1058
+      },
+      "0100": {
+        "d": 3,
+        "s": 845
+      },
+      "1100": {
+        "d": 6,
+        "s": 703
+      },
+      "0010": {
+        "d": 5,
+        "s": 79
+      },
+      "1010": {
+        "d": 10,
+        "s": 955
+      },
+      "0110": {
+        "d": 15,
+        "s": 1277
+      },
+      "1110": {
+        "d": 30,
+        "s": 972
+      },
+      "0001": {
+        "d": 7,
+        "s": 416
+      },
+      "1001": {
+        "d": 14,
+        "s": 490
+      },
+      "0101": {
+        "d": 21,
+        "s": 745
+      },
+      "1101": {
+        "d": 42,
+        "s": 915
+      },
+      "0011": {
+        "d": 35,
+        "s": 125
+      },
+      "1011": {
+        "d": 70,
+        "s": 1294
+      },
+      "0111": {
+        "d": 105,
+        "s": 1172
+      },
+      "1111": {
+        "d": 210,
+        "s": 571
+      }
+    },
+    "gauss_real_d": 43,
+    "claimed_gauss_period": 10,
+    "claimed_unit_x": 6964,
+    "claimed_unit_y": 531,
+    "claimed_unit_norm": 1,
+    "claimed_smooth_Psi": 6,
+    "claimed_max_S_ell": 76,
+    "claimed_qnr_z": 17
+  }
+}

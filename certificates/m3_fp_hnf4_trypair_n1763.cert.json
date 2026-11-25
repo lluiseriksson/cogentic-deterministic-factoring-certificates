@@ -1,0 +1,139 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m3_fp_hnf4_trypair_n1763",
+  "mode": "fixedpoint_hnf_and_trypair_cert",
+  "description": "Lemma 2.2 ApproxLog/Sqrt (M=64) + 4D biquadratic ModHNF + 4x4 TryPair annihilation mod N=1763",
+  "payload": {
+    "approx_log_probe": {
+      "u": 1025,
+      "v": 19,
+      "M": 64,
+      "claimed_num": 73565779770827510933
+    },
+    "approx_sqrt_probe": {
+      "u": 172,
+      "v": 11,
+      "M": 64,
+      "claimed_num": 72943668870014418268
+    },
+    "mod_hnf_probe": {
+      "m": 4,
+      "d_mod": 84,
+      "columns": [
+        [
+          14,
+          28,
+          42,
+          56
+        ],
+        [
+          21,
+          7,
+          35,
+          14
+        ],
+        [
+          12,
+          24,
+          36,
+          48
+        ],
+        [
+          6,
+          18,
+          30,
+          42
+        ]
+      ],
+      "claimed_H": [
+        [
+          84,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          42,
+          0,
+          0
+        ],
+        [
+          59,
+          9,
+          1,
+          0
+        ],
+        [
+          80,
+          40,
+          0,
+          2
+        ]
+      ]
+    },
+    "trypair_annihilation_probe": {
+      "N": 1763,
+      "ell": 13,
+      "pivot_matrix_B": [
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ]
+      ],
+      "claimed_det_B": 12,
+      "claimed_adj_B": [
+        [
+          8,
+          -6,
+          4,
+          -6
+        ],
+        [
+          -6,
+          12,
+          -6,
+          6
+        ],
+        [
+          4,
+          -6,
+          8,
+          -6
+        ],
+        [
+          -6,
+          6,
+          -6,
+          12
+        ]
+      ],
+      "E0": 12,
+      "Q_lcm": 70,
+      "P_mod_N": 1762,
+      "s1": -1,
+      "s2": -1,
+      "claimed_E_ell": 1680
+    }
+  }
+}

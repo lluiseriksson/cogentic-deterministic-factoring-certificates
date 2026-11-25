@@ -1,0 +1,50 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m2_wh_q479_gauss_d29",
+  "mode": "quadratic_infrastructure_wh_cert",
+  "description": "Prime q=479 (QNR z=13), K=3, Y=12, X=400: 7-field Walsh-Hadamard positivity + Gauss cycle d=29",
+  "payload": {
+    "q_prime": 479,
+    "K": 3,
+    "X": 400,
+    "Y": 12,
+    "family": {
+      "100": {
+        "d": 2,
+        "s": 292
+      },
+      "010": {
+        "d": 3,
+        "s": 448
+      },
+      "110": {
+        "d": 6,
+        "s": 49
+      },
+      "001": {
+        "d": 5,
+        "s": 22
+      },
+      "101": {
+        "d": 10,
+        "s": 197
+      },
+      "011": {
+        "d": 15,
+        "s": 276
+      },
+      "111": {
+        "d": 30,
+        "s": 120
+      }
+    },
+    "gauss_real_d": 29,
+    "claimed_gauss_period": 1,
+    "claimed_unit_x": 5,
+    "claimed_unit_y": 1,
+    "claimed_unit_norm": -1,
+    "claimed_smooth_Psi": 7,
+    "claimed_max_S_ell": 52,
+    "claimed_qnr_z": 13
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m1_miller_split_n10403",
+  "mode": "miller_multiquadratic_compat_cert",
+  "description": "Sec. 3 Miller 2-Sylow order test deterministically splits N = 101 * 103 = 10403 given M_tilde = 5100",
+  "payload": {
+    "N": 10403,
+    "M_tilde": 5100,
+    "K": 3,
+    "claimed_outcome": "SPLIT",
+    "claimed_divisor": 103
+  }
+}

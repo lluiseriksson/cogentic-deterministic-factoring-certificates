@@ -1,0 +1,7 @@
+name = "CogenticDetFactoring"
+version = "1.0.0"
+defaultTargets = ["CogenticDetFactoring"]
+
+[[lean_lib]]
+name = "CogenticDetFactoring"
+moreLeanArgs = ["-j", "1"]

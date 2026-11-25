@@ -1,0 +1,46 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m4_basem_sat_n1022117_d4",
+  "mode": "base_m_saturation_and_factor_cert",
+  "description": "N=1009*1013=1022117 (d=4, m=32): Lemma 8.1 base-m pair + Lemma 11.1 saturation (K_idx=40) + factoring",
+  "payload": {
+    "N": 1022117,
+    "factor_p1": 1009,
+    "factor_p2": 1013,
+    "base_m_pair": {
+      "d": 4,
+      "z0": 3,
+      "m": 32,
+      "ell": 13,
+      "f1_coeffs": [
+        11034205,
+        33,
+        24,
+        72,
+        729
+      ],
+      "f2_coeffs": [
+        37948309,
+        51,
+        0,
+        0,
+        729
+      ],
+      "claimed_k0": 761,
+      "claimed_k0_prime": 785
+    },
+    "saturation_probe": {
+      "P_ok": [
+        17,
+        19,
+        23,
+        29,
+        31
+      ],
+      "M_star": 255024,
+      "K_idx": 40,
+      "claimed_L_idx": 5342931457063200,
+      "claimed_M_tilde": 1362575751906085516800
+    }
+  }
+}

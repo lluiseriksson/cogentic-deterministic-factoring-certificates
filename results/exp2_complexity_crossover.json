@@ -1,0 +1,124 @@
+{
+  "burgess_vinogradov_exponent": 0.151633,
+  "harvey_vs_cogentic_lnN_crossover": 50625.0,
+  "harvey_vs_cogentic_bits_crossover": 73036.44,
+  "sweep": [
+    {
+      "bits_log2_N": 64,
+      "log2_pollard_strassen_N1_4": 16.0,
+      "log2_harvey_N1_5": 12.8,
+      "log2_burgess_vinogradov_QNR": 9.7,
+      "log2_cogentic_exp_3_L34": 74.4,
+      "log2_cogentic_L12_QNR_unitC": 39.4,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 128,
+      "log2_pollard_strassen_N1_4": 32.0,
+      "log2_harvey_N1_5": 25.6,
+      "log2_burgess_vinogradov_QNR": 19.41,
+      "log2_cogentic_exp_3_L34": 125.12,
+      "log2_cogentic_L12_QNR_unitC": 63.21,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 256,
+      "log2_pollard_strassen_N1_4": 64.0,
+      "log2_harvey_N1_5": 51.2,
+      "log2_burgess_vinogradov_QNR": 38.82,
+      "log2_cogentic_exp_3_L34": 210.42,
+      "log2_cogentic_L12_QNR_unitC": 101.18,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 512,
+      "log2_pollard_strassen_N1_4": 128.0,
+      "log2_harvey_N1_5": 102.4,
+      "log2_burgess_vinogradov_QNR": 77.64,
+      "log2_cogentic_exp_3_L34": 353.89,
+      "log2_cogentic_L12_QNR_unitC": 160.78,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 1024,
+      "log2_pollard_strassen_N1_4": 256.0,
+      "log2_harvey_N1_5": 204.8,
+      "log2_burgess_vinogradov_QNR": 155.27,
+      "log2_cogentic_exp_3_L34": 595.17,
+      "log2_cogentic_L12_QNR_unitC": 253.19,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 2048,
+      "log2_pollard_strassen_N1_4": 512.0,
+      "log2_harvey_N1_5": 409.6,
+      "log2_burgess_vinogradov_QNR": 310.54,
+      "log2_cogentic_exp_3_L34": 1000.95,
+      "log2_cogentic_L12_QNR_unitC": 395.14,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 4096,
+      "log2_pollard_strassen_N1_4": 1024.0,
+      "log2_harvey_N1_5": 819.2,
+      "log2_burgess_vinogradov_QNR": 621.09,
+      "log2_cogentic_exp_3_L34": 1683.39,
+      "log2_cogentic_L12_QNR_unitC": 611.66,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 8192,
+      "log2_pollard_strassen_N1_4": 2048.0,
+      "log2_harvey_N1_5": 1638.4,
+      "log2_burgess_vinogradov_QNR": 1242.17,
+      "log2_cogentic_exp_3_L34": 2831.11,
+      "log2_cogentic_L12_QNR_unitC": 940.07,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 16384,
+      "log2_pollard_strassen_N1_4": 4096.0,
+      "log2_harvey_N1_5": 3276.8,
+      "log2_burgess_vinogradov_QNR": 2484.35,
+      "log2_cogentic_exp_3_L34": 4761.35,
+      "log2_cogentic_L12_QNR_unitC": 1435.81,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 32768,
+      "log2_pollard_strassen_N1_4": 8192.0,
+      "log2_harvey_N1_5": 6553.6,
+      "log2_burgess_vinogradov_QNR": 4968.7,
+      "log2_cogentic_exp_3_L34": 8007.6,
+      "log2_cogentic_L12_QNR_unitC": 2181.09,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 65536,
+      "log2_pollard_strassen_N1_4": 16384.0,
+      "log2_harvey_N1_5": 13107.2,
+      "log2_burgess_vinogradov_QNR": 9937.4,
+      "log2_cogentic_exp_3_L34": 13467.12,
+      "log2_cogentic_L12_QNR_unitC": 3297.55,
+      "cogentic_fac_beats_harvey": false
+    },
+    {
+      "bits_log2_N": 131072,
+      "log2_pollard_strassen_N1_4": 32768.0,
+      "log2_harvey_N1_5": 26214.4,
+      "log2_burgess_vinogradov_QNR": 19874.8,
+      "log2_cogentic_exp_3_L34": 22648.91,
+      "log2_cogentic_L12_QNR_unitC": 4964.79,
+      "cogentic_fac_beats_harvey": true
+    },
+    {
+      "bits_log2_N": 262144,
+      "log2_pollard_strassen_N1_4": 65536.0,
+      "log2_harvey_N1_5": 52428.8,
+      "log2_burgess_vinogradov_QNR": 39749.59,
+      "log2_cogentic_exp_3_L34": 38090.78,
+      "log2_cogentic_L12_QNR_unitC": 7447.48,
+      "cogentic_fac_beats_harvey": true
+    }
+  ]
+}

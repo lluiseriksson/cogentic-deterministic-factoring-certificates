@@ -1,0 +1,50 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m2_wh_q311_gauss_d13",
+  "mode": "quadratic_infrastructure_wh_cert",
+  "description": "Prime q=311 (QNR z=11), K=3, Y=10, X=250: 7-field Walsh-Hadamard positivity + Gauss cycle d=13",
+  "payload": {
+    "q_prime": 311,
+    "K": 3,
+    "X": 250,
+    "Y": 10,
+    "family": {
+      "100": {
+        "d": 2,
+        "s": 245
+      },
+      "010": {
+        "d": 3,
+        "s": 25
+      },
+      "110": {
+        "d": 6,
+        "s": 216
+      },
+      "001": {
+        "d": 5,
+        "s": 117
+      },
+      "101": {
+        "d": 10,
+        "s": 53
+      },
+      "011": {
+        "d": 15,
+        "s": 126
+      },
+      "111": {
+        "d": 30,
+        "s": 81
+      }
+    },
+    "gauss_real_d": 13,
+    "claimed_gauss_period": 1,
+    "claimed_unit_x": 3,
+    "claimed_unit_y": 1,
+    "claimed_unit_norm": -1,
+    "claimed_smooth_Psi": 3,
+    "claimed_max_S_ell": 32,
+    "claimed_qnr_z": 11
+  }
+}

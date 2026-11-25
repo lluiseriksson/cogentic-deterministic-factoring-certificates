@@ -1,0 +1,79 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m3_fp_hnf2_trypair_n323",
+  "mode": "fixedpoint_hnf_and_trypair_cert",
+  "description": "Lemma 2.2 ApproxLog/Sqrt (M=32) + 2D ModHNF + 2x2 TryPair localization annihilation mod N=323",
+  "payload": {
+    "approx_log_probe": {
+      "u": 17,
+      "v": 5,
+      "M": 32,
+      "claimed_num": 5256075456
+    },
+    "approx_sqrt_probe": {
+      "u": 13,
+      "v": 3,
+      "M": 32,
+      "claimed_num": 8940687389
+    },
+    "mod_hnf_probe": {
+      "m": 2,
+      "d_mod": 60,
+      "columns": [
+        [
+          12,
+          18
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "claimed_H": [
+        [
+          60,
+          0
+        ],
+        [
+          42,
+          3
+        ]
+      ]
+    },
+    "trypair_annihilation_probe": {
+      "N": 323,
+      "ell": 7,
+      "pivot_matrix_B": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "claimed_det_B": 13,
+      "claimed_adj_B": [
+        [
+          5,
+          -1
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "E0": 13,
+      "Q_lcm": 48,
+      "P_mod_N": 322,
+      "s1": -1,
+      "s2": -1,
+      "claimed_E_ell": 1248
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "DETFACT-COGENTIC-CERT-1.0",
+  "cert_id": "m4_basem_sat_n4028033_d5",
+  "mode": "base_m_saturation_and_factor_cert",
+  "description": "N=2003*2011=4028033 (d=5, m=21): Lemma 8.1 degree-5 base-m pair + Lemma 11.1 saturation (K_idx=50)",
+  "payload": {
+    "N": 4028033,
+    "factor_p1": 2003,
+    "factor_p2": 2011,
+    "base_m_pair": {
+      "d": 5,
+      "z0": 3,
+      "m": 21,
+      "ell": 7,
+      "f1_coeffs": [
+        133490947,
+        12,
+        9,
+        12,
+        30,
+        243
+      ],
+      "f2_coeffs": [
+        139430839,
+        30,
+        21,
+        0,
+        0,
+        243
+      ],
+      "claimed_k0": 281,
+      "claimed_k0_prime": 281
+    },
+    "saturation_probe": {
+      "P_ok": [
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "M_star": 2012010,
+      "K_idx": 50,
+      "claimed_L_idx": 3099044504245996706400,
+      "claimed_M_tilde": 6235308532987987833243864000
+    }
+  }
+}
