@@ -1,7 +1,7 @@
 {
   "title": "Constructive Lean 4 Kernel and Exact Zero-Float Certificates for Google Research Cogentic's Deterministic Subexponential Factoring and QNR Breakthrough",
   "authors": ["Lluis Eriksson"],
-  "abstract": "Google Research's Cogentic framework (Nov. 25, 2026) established the first unconditional deterministic subexponential general integer factoring algorithm running in worst-case bit complexity O(exp(3 (ln N)^(3/4))) = L_N[3/4, o(1)], together with deterministic subexponential order splitting and prime quadratic nonresidue (QNR) construction in O(exp(C_split (ln p)^(1/2) ln ln(p+16))), surpassing both Harvey's exponential N^(1/5+o(1)) factoring barrier and Burgess-Vinogradov's exponential p^(1/(4 sqrt(e))) QNR barrier. We deliver an explicitly scoped, standalone, zero-floating-point verification stack uniting 18 constructive Lean 4.35.0 theorems (zero sorry, zero axiom, zero Classical.choice, zero warnings; 3 zero-axiom and 15 [propext, Quot.sound]) with a pure-stdlib Python int/Fraction 4-mode auditor (DETFACT-COGENTIC-CERT-1.0) that certifies 16 canonical witnesses in 0.010-1.978 ms and rejects 66/66 live adversarial forgeries with exact branch assertions (72/72 pytest checks).",
+  "abstract": "A November 25, 2026 companion preprint from Google Research's Cogentic framework proposes an unconditional deterministic subexponential general integer factoring algorithm with claimed worst-case bit complexity O(exp(3 (ln N)^(3/4))), together with deterministic subexponential order splitting and prime quadratic nonresidue (QNR) construction in O(exp(C_split (ln p)^(1/2) ln ln(p+16))). Rather than assuming peer-reviewed endorsement of the preprint's analytic pillars, we deliver an independent, explicitly scoped, zero-floating-point verification companion uniting 18 constructive Lean 4.35.0 algebraic and arithmetic sub-lemmas (zero sorry, zero axiom, zero Classical.choice, zero warnings; 3 zero-axiom and 15 [propext, Quot.sound]) with a pure-stdlib Python int/Fraction 4-mode auditor (DETFACT-COGENTIC-CERT-1.0) that certifies 16 canonical finite witnesses in 0.010-1.978 ms and rejects 66/66 live adversarial forgeries with exact branch assertions (72/72 pytest checks).",
   "primary_subject": "Mathematics",
   "secondary_subjects": ["Computer and information sciences"],
   "keywords": [
@@ -17,6 +17,6 @@
   "license": "CC-BY-4.0",
   "code_license": "MIT",
   "repo_url": "https://github.com/lluiseriksson/cogentic-deterministic-factoring-certificates",
-  "release_tag": "v1.0.0",
+  "release_tag": "v2.0.0",
   "pdf_relpath": "paper/main.pdf"
 }
